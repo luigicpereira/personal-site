@@ -9,7 +9,7 @@ import { Container, Content, Header } from '../styles/pages/Home';
 
 import SocialMediaButton from '../components/SocialMediaButton';
 
-import profileImg from '../assets/profile.png';
+import ProfileImg from '../assets/profile.png';
 
 const Home: React.FC = () => {
   const [themeSwitchIChecked, setThemeSwitchIChecked] = useState(false);
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
 
       <Header>
         <div>
-          <img src={profileImg.src} alt="" />
+          <img src={ProfileImg.src} alt="" />
           <h1>Luigi Ciccone Pereira</h1>
         </div>
         <ReactSwitch
